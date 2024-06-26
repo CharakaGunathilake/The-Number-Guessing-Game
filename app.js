@@ -1,7 +1,7 @@
 
 let randomNumber = Math.floor(Math.random() * 10 + 1);
 let guesses = 1;
-let rguesses = 3;
+let rguesses = 2;
 document.getElementById("submitguess").onclick = function () {
     let guessedNumber = document.getElementById("guessField").value;
     if (guesses != 3) {

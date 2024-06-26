@@ -11,13 +11,13 @@ document.getElementById("submitguess").onclick = function () {
             alert("ENTER A NUMBER!!!");
         }else if (guessedNumber > randomNumber) {
             guesses++;
-            alert("OOPS SORRY!! TRY A SMALLER NUMBER"+ (rguesses--) + " GUESSES REMAINING ");
+            alert("OOPS SORRY!! TRY A SMALLER NUMBER "+ (rguesses--) + " GUESSES REMAINING ");
         }else {
             guesses++;
-            alert("OOPS SORRY!! TRY A GREATER NUMBER"+ (rguesses--) + " GUESSES REMAINING ")
+            alert("OOPS SORRY!! TRY A GREATER NUMBER "+ (rguesses--) + " GUESSES REMAINING ")
         }
     }else{
-        alert("GAME OVER CORRECT NUMBER WAS " + randomNumber + "!! REFRESH AND TRY AGAIN!!");
+        alert("GAME OVER!!, CORRECT NUMBER WAS "+ randomNumber +" REFRESH AND TRY AGAIN!!");
     }
 }
 document.getElementById("Refresh").onclick = function (){

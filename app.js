@@ -1,6 +1,5 @@
 
 let randomNumber = Math.floor(Math.random() * 10 + 1);
-console.log(randomNumber);
 let guesses = 1;
 
 document.getElementById("submitguess").onclick = function () {

@@ -17,7 +17,7 @@ document.getElementById("submitguess").onclick = function () {
             alert("OOPS SORRY!! TRY A GREATER NUMBER"+ (rguesses--) + " GUESSES REMAINING ")
         }
     }else{
-        alert("GAME OVER!! REFRESH AND TRY AGAIN!!");
+        alert("GAME OVER CORRECT NUMBER WAS " + randomNumber + "!! REFRESH AND TRY AGAIN!!");
     }
 }
 document.getElementById("Refresh").onclick = function (){
